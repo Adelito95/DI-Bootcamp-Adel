@@ -14,12 +14,16 @@
 number = int(input("Entrer un nombre : ")) # Asking the user for a number.
 length = int(input("Entrer une longueur : ")) # Asking the user for a length.
 list_of_multiples = [] # Creation of an empty list
-for i in range(length+1) : # Loop on the range of the lenght + one
-    if i > 0 : # 0 non include
+for i in range(1,length+1) : # Loop on the range of the lenght + one
         multiples = number*i # Mathematique operation
         list_of_multiples.append(multiples) # Adding the result of the operation at a liste
 print (f"number: {number} - length {length} ➞  {list_of_multiples}") # Printing of list of multiples of the user given number until the list length reaches the user given length.
-
+"""Le programme peut etre fait avec un liste comprehension auusi"""
+""" number = int(input("Entrer un nombre : ")) # Asking the user for a number.
+length = int(input("Entrer une longueur : ")) # Asking the user for a length.
+list_of_multiples = [(number*i for i in range(1,length+1)) ] # Creation of an empty list
+print (f"number: {number} - length {length} ➞  {list_of_multiples}") # Printing of list of multiples of the user given number until the list length reaches the user given length.
+ """
 # # Challenge 2
 # Write a program that asks a string to the user, and display a new string with any duplicate consecutive letters removed.
 # Examples
@@ -42,3 +46,4 @@ for elem in user_string: # Iteration Loop on user_string
     if user_string_corrected.endswith(elem) !=True : # Duplicate consecutive element is not allowed 
         user_string_corrected += elem # Adding the character parsed on the user_string_corrected variable
 print(f"user's word : \"{user_string}\" ➞  \"{user_string_corrected}\"") # Printing of the result without duplicate consecutive letter in the given word
+"""Exo faisable avec les index ;-)"""
