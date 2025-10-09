@@ -17,7 +17,7 @@ class Farm () :
             self.animal_type = animal_type
             self.count = count
             if animal_type in self.animals :
-                self.animals[animal_type] += 1
+                self.animals[animal_type] += count
             else :
                 self.animals[animal_type] = count
             
@@ -36,7 +36,7 @@ class Farm () :
             self.sorted_liste = sorted_list
             for  k, v in self.animals.items() :
                   sorted_list.append(k)
-            print(sorted(sorted_list))
+            return (sorted(sorted_list))
         
         def get_short_info(self) :
              for k, v in self.animals.items() :
@@ -45,10 +45,11 @@ class Farm () :
                          if self.sorted_liste[i]  == k :
                           self.sorted_liste[i] += "s" 
              print (self.sorted_liste) 
-             print(f"{self.name}’s farm has {self.sorted_liste[0]}, {self.sorted_liste[1]} and {self.sorted_liste[2]}")
+             return print(f"{self.name}’s farm has {self.sorted_liste[0]}, {self.sorted_liste[1]} and {self.sorted_liste[2]}")
      
 
 macdonald = Farm("McDonald")
+print (macdonald)
 macdonald.add_animal('cow', 5)
 macdonald.add_animal('sheep')
 macdonald.add_animal('sheep')
