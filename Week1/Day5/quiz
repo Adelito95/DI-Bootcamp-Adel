@@ -1,0 +1,248 @@
+Quiz Result for "Python & OOP Quiz" is here -
+ Total Question - 20
+ Total Attempts - 20
+ Total Correct - 17
+ Total Incorrect - 3
+ Duration - 20Minutes
+ Passing Percentage - 70%
+ Your Percentage - 85.0%
+Q1. Which of the following data types is immutable in Python?
+1) List
+2) Dictionary
+3) Tuple
+4) Set
+Your Answer: 3 ) ✔
+Tuple
+Correct Answer: 3)
+Tuple
+Q2. What will be the output of the following code?
+1) "1010"
+2) 20
+3) TypeError
+4) 10
+Your Answer: 2 ) ✔
+20
+Correct Answer: 2)
+20
+Q3. Which operator is used for exponentiation in Python?
+1) ^
+2) **
+3) //
+4) %
+Your Answer: 2 ) ✔
+**
+Correct Answer: 2)
+**
+Q4. What will be the output of the following code?
+1)
+[1, 2, 3]
+2)
+[1, 2, 3, 4]
+3)
+[4, 1, 2, 3]
+4)
+[1, 2, 3, 4, 4]
+Your Answer: 1 ) ❌
+
+[1, 2, 3]
+Correct Answer: 2)
+
+[1, 2, 3, 4]
+Q5. What will the following expression return?
+1) True
+2) False
+3) None
+4) Error
+Your Answer: 3 ) ❌
+None
+Correct Answer: 2)
+False
+Q6. Which function is used to get user input in Python 3?
+1)
+get_input()
+2)
+readline()
+3)
+input()
+4)
+scan()
+Your Answer: 3 ) ✔
+
+input()
+Correct Answer: 3)
+
+input()
+Q7. What does this code print?
+1)
+<class 'int'>
+2)
+<class 'float'>
+3)
+<class 'double'>
+4)
+<class 'number'>
+Your Answer: 2 ) ✔
+
+<class 'float'>
+Correct Answer: 2)
+
+<class 'float'>
+Q8. Which of the following statements is used to handle exceptions in Python?
+1) catch
+2) try-except
+3) handle
+4) error-trap
+Your Answer: 2 ) ✔
+try-except
+Correct Answer: 2)
+try-except
+Q9. How do you correctly define a function in Python?
+1)
+def my_function():
+    print("Hello!")
+2)
+function my_function():
+    print("Hello!")
+3)
+define my_function():
+    print("Hello!")
+4)
+func my_function():
+    print("Hello!")
+Your Answer: 1 ) ✔
+
+def my_function():
+    print("Hello!")
+Correct Answer: 1)
+
+def my_function():
+    print("Hello!")
+Q10. What does the range(5) function return?
+1) [0, 1, 2, 3, 4]
+2) [1, 2, 3, 4, 5]
+3) (0, 1, 2, 3, 4)
+4) An iterator
+Your Answer: 1 ) ✔
+[0, 1, 2, 3, 4]
+Correct Answer: 1)
+[0, 1, 2, 3, 4]
+Q11. What will the following code output?
+1) "tho"
+2) "yth"
+3) "hon"
+4) "Pyt"
+Your Answer: 1 ) ✔
+"tho"
+Correct Answer: 1)
+"tho"
+Q12. What keyword is used to define a class in Python?
+1) define
+2) class
+3) struct
+4) object
+Your Answer: 2 ) ✔
+class
+Correct Answer: 2)
+class
+Q13. How can you remove an item from a list?
+1) remove()
+2) delete()
+3) pop()
+4) Both A and C
+Your Answer: 1 ) ❌
+remove()
+Correct Answer: 4)
+Both A and C
+Q14. What will be the output of this loop?
+1) 0 1 2
+2) 1 2 3
+3) 0 1 2 3
+4) 1 2
+Your Answer: 1 ) ✔
+0 1 2
+Correct Answer: 1)
+0 1 2
+Q15. Which of these is not a valid way to declare a dictionary?
+1)
+my_dict = {}
+2)
+my_dict = dict()
+3)
+my_dict = []
+4)
+my_dict = {"key": "value"}
+Your Answer: 3 ) ✔
+
+my_dict = []
+Correct Answer: 3)
+
+my_dict = []
+Q16. What is the primary purpose of a class in Python?
+1) To store data
+2) To define functions
+3) To provide a blueprint for creating objects
+4) To execute code
+Your Answer: 3 ) ✔
+To provide a blueprint for creating objects
+Correct Answer: 3)
+To provide a blueprint for creating objects
+Q17. What is a class attribute in Python?
+1) An attribute that is only accessible within the class
+2) An attribute shared by all instances of a class
+3) An attribute that can be modified after object creation
+4) An attribute defined inside a method
+Your Answer: 2 ) ✔
+An attribute shared by all instances of a class
+Correct Answer: 2)
+An attribute shared by all instances of a class
+Q18. Here is a class <code>Animal</code> with a method <code>make_sound</code>. The subclass <code>Dog</code> inherits from <code>Animal</code>. Choose the best option to override the <code>make_sound</code> method to print "Woof!"
+1)
+def bark(self): 
+    print("Bark!")
+2)
+def sound(self): 
+    print("Woof!")
+3)
+def make_sound(self): 
+    print("Meow!")
+4)
+def make_sound(self): 
+    print("Woof!")
+Your Answer: 4 ) ✔
+
+def make_sound(self): 
+    print("Woof!")
+Correct Answer: 4)
+
+def make_sound(self): 
+    print("Woof!")
+Q19. How do you access the attribute <code>released_date</code> of an instance pokemon of class <code>Game</code> in Python?
+1)
+pokemon.released_date
+2)
+MyClass.released_date
+3)
+pokemon.get("released_date")
+4)
+MyClass.get_attribute(pokemon)
+Your Answer: 1 ) ✔
+
+pokemon.released_date
+Correct Answer: 1)
+
+pokemon.released_date
+Q20. How would you set a new balance of 100 to an instance acc of <code>BankAccount</code>?
+1)
+acc.__balance = 100
+2)
+acc.balance = 100
+3)
+acc.set_balance(100)
+4)
+BankAccount.set_balance(acc, 100)
+Your Answer: 2 ) ✔
+
+acc.balance = 100
+Correct Answer: 2)
+
+acc.balance = 100
