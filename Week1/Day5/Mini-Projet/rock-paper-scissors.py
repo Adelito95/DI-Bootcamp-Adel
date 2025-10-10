@@ -28,31 +28,4 @@ def main() :
             return print_results(results)
 
 if __name__ == "__main__":
-    main()
-                           
-                
-
-                
-# play = Play()   
-# print(play.get_user_menu_choice())
-# self.user_item = user_item 
-#         self.computer_item = computer_item 
-#         win_count = 0
-#         loose_count = 0
-#         drew_count = 0
-#         if self.user_item == self.computer_item :
-#             drew_count += 1
-#             return f"you choose : {self.user_item}, the computer chose : {self.computer_item}, result : draw"
-#         elif self.user_item != self.computer_item :
-#             if (self.user_item == "r" and self.computer_item == "s") or (self.user_item == "p" and self.computer_item == "r") or (user_item == "s" and self.computer_item == "p"):
-#                  win_count += 1
-#                  return f"you choose : {self.user_item}, the computer chose : {self.computer_item}, result : win" 
-#             else :
-#                 loose_count += 1
-#                 return f"you choose : {self.user_item}, the computer chose : {self.computer_item}, result : loose" 
-
-
-    # 
-    #   if user not in new_game :
-    #         print ("Enter one of requested letter please !!!")
-    #     else :
+    main()                          

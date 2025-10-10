@@ -1,5 +1,7 @@
-import random
 # Partie I - game.py
+ 
+import random
+
 class Game() :
 
     def __init__(self):
@@ -46,26 +48,14 @@ class Game() :
                 print(f"You selected {user}. The computer selected {computer} You lost")
                 return "loss"
 
-                      
+# Test unitaire                     
 # game = Game()
 # user = game.get_user_item()  
 # computeur = game.get_computer_item()
 # result = game.get_game_result(user,computeur)
 # print (result)
-# result1 = play
-# print(result1)
 
-    # else : 
-    #     user_number = int(user_number)
-    #     if user_number == Number and user_number != quit  :
-    #         print (" ➞  Winner !!!!")
-    #         print()
-    #         win_count +=1
-    #         totaly += 1
-    #     elif user_number != Number and user_number != quit  :
-    #         print (" ➞  Better luck next time !!!!")
-    #         print ()
-    #         loose_count += 1
-    #         totaly += 1
+
+
 
         
