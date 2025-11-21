@@ -1,3 +1,4 @@
+# HACKATHON 2 - RAG local Streamlit
 import streamlit as st
 import faiss
 import numpy as np
